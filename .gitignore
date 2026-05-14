@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Generated artifacts (re-runnable from scripts.ipynb)
+outputs/
+
+# Large data file (lives on the GitHub release, fetched via curl per README)
+data/consolidated_modeling_data.parquet
